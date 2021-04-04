@@ -180,6 +180,52 @@ information_waiting_room_bicycles.set_text("🚲 11") # TODO: Set value dynamica
 information_waiting_room_bicycles.align(information_waiting_room_bicycles_container, lv.ALIGN.CENTER, 0, 0)
 # style_information_waiting_room_bicycles = style_information_waiting_room_pedestrians
 # information_waiting_room_bicycles.add_style(lv.label.PARTMAIN, style_information_waiting_room_bicycles)
+buy_ticket_button = lv.btn(scr);
+buy_ticket_button.set_size(400, 90)
+buy_ticket_button.set_pos(200, 680)
+# TODO: add btn-click listener
+style_buy_ticket = lv.style_t()
+style_buy_ticket.set_bg_color(lv.STATE.DEFAULT, lv.color_hex(0x00954d))
+style_buy_ticket.set_border_width(lv.STATE.DEFAULT, 0)
+style_buy_ticket.set_radius(lv.STATE.DEFAULT, 25)
+buy_ticket_button.add_style(lv.btn.PART.MAIN, style_buy_ticket)
+buy_ticket_button_label = lv.label(buy_ticket_button)
+buy_ticket_button_label.set_text("Ticket kaufen")
+style_buy_ticket_button_label = lv.style_t()
+style_buy_ticket_button_label.set_text_color(lv.STATE.DEFAULT, lv.color_hex(0xffffff))
+# style_buy_ticket_button_label.set_text_font(lv.STATE.DEFAULT, font_oxygen_bold_48)
+buy_ticket_button_label.add_style(lv.label.PART.MAIN, style_buy_ticket_button_label)
+recharge_membership_card_button = lv.btn(scr);
+recharge_membership_card_button.set_size(340, 70)
+recharge_membership_card_button.set_pos(680, 690)
+# TODO: add btn-click listener
+style_recharge_membership_card = lv.style_t()
+style_recharge_membership_card.set_bg_color(lv.STATE.DEFAULT, lv.color_hex(0x4c567c))
+style_recharge_membership_card.set_border_width(lv.STATE.DEFAULT, 0)
+style_recharge_membership_card.set_radius(lv.STATE.DEFAULT, 25)
+recharge_membership_card_button.add_style(lv.btn.PART.MAIN, style_recharge_membership_card)
+recharge_membership_card_button_label = lv.label(recharge_membership_card_button)
+recharge_membership_card_button_label.set_text("FährCard aufladen")
+style_recharge_membership_card_button_label = lv.style_t()
+style_recharge_membership_card_button_label.set_text_color(lv.STATE.DEFAULT, lv.color_hex(0xffffff))
+# style_recharge_membership_card_button_label.set_text_font(lv.STATE.DEFAULT, font_oxygen_bold_48)
+recharge_membership_card_button_label.add_style(lv.label.PART.MAIN, style_recharge_membership_card_button_label)
+information_button = lv.btn(scr);
+information_button.set_size(50, 50)
+information_button.set_pos(1030, 700)
+# TODO: add btn-click listener
+style_information = lv.style_t()
+style_information.set_bg_color(lv.STATE.DEFAULT, lv.color_hex(0x4c567c))
+style_information.set_border_width(lv.STATE.DEFAULT, 0)
+style_information.set_radius(lv.STATE.DEFAULT, 25)
+information_button.add_style(lv.btn.PART.MAIN, style_information)
+information_button_label = lv.label(information_button)
+information_button_label.set_text("i")
+style_information_button_label = lv.style_t()
+style_information_button_label.set_text_color(lv.STATE.DEFAULT, lv.color_hex(0xffffff))
+# style_information_button_label.set_text_font(lv.STATE.DEFAULT, font_oxygen_bold_48)
+information_button_label.add_style(lv.label.PART.MAIN, style_information_button_label)
+
 
 
 # Load the screen
