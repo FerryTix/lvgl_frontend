@@ -68,6 +68,19 @@ sub_title.set_text("Bislich --> Xanten")
 # style_sub_title.set_text_font(lv.STATE.DEFAULT, font_oxygen_regular_48)
 # title.add_style(lv.label.PART.MAIN, style_title)
 sub_title.align(head, lv.ALIGN.CENTER, 0, 30)
+schedule = lv.obj(scr)
+schedule.set_size(550, 400)
+schedule.align(scr, lv.ALIGN.LEFT, 50, 250)
+style_schedule = lv.style_t()
+style_schedule.set_bg_color(lv.STATE.DEFAULT, lv.color_hex(0xe5e5e5))
+style_schedule.set_border_color(lv.STATE.DEFAULT, lv.color_hex(0xe5e5e5))
+style_schedule.set_border_width(lv.STATE.DEFAULT, 15)
+schedule.add_style(lv.obj.PART.MAIN, style_schedule)
+information = lv.obj(scr)
+information.set_size(554, 400)
+information.align(scr, lv.ALIGN.LEFT, 680, 250)
+style_information = style_schedule
+information.add_style(lv.obj.PART.MAIN, style_information)
 
 
 # Load the screen
