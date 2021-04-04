@@ -6,4 +6,4 @@ This is the frontend for the FerryTix Vending Machine.
 
 This is built on [ LVGL in MicroPython ](https://github.com/lvgl/lv_micropython).
 
-To run, execute: `lv_micropython/ports/unix/micropython frontend/src/lib/ferrytix.py`
+To run, execute: `lv_micropython/ports/unix/micropython frontend/src/ferrytix.py`
