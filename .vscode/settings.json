@@ -1,0 +1,16 @@
+{
+    "python.languageServer": "Pylance",
+    "python.autoComplete.extraPaths": [
+        "./src/lib",
+        "stubs/cpython_core",
+        "stubs/micropython-1_13-frozen/GENERIC"
+    ],
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.jediEnabled": false,
+    "python.analysis.extraPaths": [
+        "./src/lib",
+        "stubs/cpython_core",
+        "stubs/micropython-1_13-frozen/GENERIC"
+    ],
+}
