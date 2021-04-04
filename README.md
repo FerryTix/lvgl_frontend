@@ -7,6 +7,6 @@ When complete, it should look something like [this](https://www.figma.com/file/f
 
 ## Introduction
 
-This is built on [ LVGL in MicroPython ](https://github.com/lvgl/lv_micropython).
+This is built on [LVGL in MicroPython](https://github.com/lvgl/lv_micropython).
 
 To run, execute: `lv_micropython/ports/unix/micropython frontend/src/ferrytix.py`
