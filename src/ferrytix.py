@@ -165,7 +165,7 @@ information_waiting_room_pedestrians_container.set_pos(142, 309)
 information_waiting_room_pedestrians_container.set_click(False)
 information_waiting_room_pedestrians_container.add_style(lv.obj.PART.MAIN, style_hidden)
 information_waiting_room_pedestrians = lv.label(information_waiting_room_pedestrians_container)
-information_waiting_room_pedestrians.set_text("17") # TODO: Set value dynamically
+information_waiting_room_pedestrians.set_text("🧑🏼 17") # TODO: Set value dynamically
 information_waiting_room_pedestrians.align(information_waiting_room_pedestrians_container, lv.ALIGN.CENTER, 0, 0)
 # style_information_waiting_room_pedestrians = lv_style_t()
 # style_information_waiting_room_pedestrians.set_text_font(lv.STATE.DEFAULT, font_oxygen_regular_36)
@@ -176,7 +176,7 @@ information_waiting_room_bicycles_container.set_pos(291, 309)
 information_waiting_room_bicycles_container.set_click(False)
 information_waiting_room_bicycles_container.add_style(lv.obj.PART.MAIN, style_hidden)
 information_waiting_room_bicycles = lv.label(information_waiting_room_bicycles_container)
-information_waiting_room_bicycles.set_text("11") # TODO: Set value dynamically
+information_waiting_room_bicycles.set_text("🚲 11") # TODO: Set value dynamically
 information_waiting_room_bicycles.align(information_waiting_room_bicycles_container, lv.ALIGN.CENTER, 0, 0)
 # style_information_waiting_room_bicycles = style_information_waiting_room_pedestrians
 # information_waiting_room_bicycles.add_style(lv.label.PARTMAIN, style_information_waiting_room_bicycles)
